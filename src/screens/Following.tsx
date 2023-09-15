@@ -35,6 +35,7 @@ const Following = () => {
   const handleEndReached = (buttonTitle: string) => {
     console.log(buttonTitle);
     if (!isLoadingFetchFollowingSection) {
+      setIsClickedFlip(false);
       setPage(page + 1); // Load more data by incrementing the page
     }
   };
