@@ -9,10 +9,10 @@ import {
   ProfileDetails,
   ButtonTitle,
 } from '../components/molecules';
-import useFetchForyouSection from '../data/api/hooks/useFetchForyouSection';
+import useFetchForyouSection from '../api/hooks/useFetchForyouSection';
 import {forYouUtl} from '../utils/Constant';
 import {EmptyView, ErrorView, Loader} from '../components/atoms/';
-import MCQSection from '../data/api/types/MCQSection';
+import MCQSection from '../api/types/MCQSection';
 
 const NO_WIDTH_SPACE = '';
 type MCQType = {
