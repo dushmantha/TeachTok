@@ -11,7 +11,8 @@
 - [Project Overview](#project-overview)
 - [In Scope](#in-scope)
 - [Not in Scope](#not-in-scope)
-- [Screens](#screens)
+- [Screens-iOS](#screens-ios)
+- [Screens-Android](#screens-android)
 - [API Endpoints](#api-endpoints)
 - [Requirements](#requirements)
 - [Third-Party Libraries](#third-party-libraries)
@@ -43,9 +44,13 @@ In this project, your goal is to implement the following features for the "Home"
 - Implementing navigation to User Profile, Search, or the Playlist (just show them as static icons/text).
 - Implementing any sections of the app other than "Home" (Discover, Activity, Bookmarks, Profile).
 
-## Screens
+## Screens-iOS
 
-<img src = "screenshot/1.png" width = "200" hight = "420"> <img src = "screenshot/2.png" width = "200" hight = "420"><img src = "screenshot/3.png" width = "200" hight = "420"><img src = "screenshot/4.png" width = "200" hight = "420"><img src = "screenshot/5.png" width = "200" hight = "420"><img src = "screenshot/6.png" width = "200" hight = "420">
+<img src = "screenshot/3.png" width = "200" hight = "420"> <img src = "screenshot/2.png" width = "200" hight = "420"><img src = "screenshot/1.png" width = "200" hight = "420"><img src = "screenshot/7.png" width = "200" hight = "420"><img src = "screenshot/6.png" width = "200" hight = "420"><img src = "screenshot/5.png" width = "200" hight = "420"><img src = "screenshot/4.png" width = "200" hight = "420">
+
+## Screens-Android
+
+<img src = "screenshot/7.png" width = "200" hight = "420"> <img src = "screenshot/8.png" width = "200" hight = "420"><img src = "screenshot/9.png" width = "200" hight = "420"><img src = "screenshot/10.png" width = "200" hight = "420"><img src = "screenshot/11.png" width = "200" hight = "420"><img src = "screenshot/12.png" width = "200" hight = "420"><img src = "screenshot/13.png" width = "200" hight = "420"><img src = "screenshot/14.png" width = "200" hight = "420">
 
 ## API Endpoints
 
