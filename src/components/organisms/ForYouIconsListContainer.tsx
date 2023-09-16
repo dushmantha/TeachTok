@@ -4,7 +4,7 @@ import SVGComments from '../../assets/comments.svg';
 import SVGBookmark from '../../assets/bookmark.svg';
 import SVGShare from '../../assets/share.svg';
 import {IconsListContainer, ButtonTitle} from '../molecules';
-import User from '../../data/api/types/User';
+import User from '../../api/types/User';
 
 const iconData = [
   {

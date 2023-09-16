@@ -7,7 +7,7 @@ import SVGBookmark from '../../assets/bookmark.svg';
 import SVGShare from '../../assets/share.svg';
 import SVGFlip from '../../assets/flip.svg';
 import {IconsListContainer, ButtonTitle} from '../molecules';
-import User from '../../data/api/types/User';
+import User from '../../api/types/User';
 
 const styles = StyleSheet.create({
   circle: {

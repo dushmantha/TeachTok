@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import MCQOptionButton from '../atoms/MCQOptionButton';
 import {Box} from '../../theme/Theme';
-import MCQSection from '../../data/api/types/MCQSection';
+import MCQSection from '../../api/types/MCQSection';
 
 type MCQAnswerProps = {
   mcq: MCQSection;

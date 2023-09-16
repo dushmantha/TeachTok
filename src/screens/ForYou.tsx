@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Dimensions, ImageBackground, StyleSheet} from 'react-native';
+import {Dimensions, ImageBackground, Platform, StyleSheet} from 'react-native';
 import {Box, Text} from '../theme/Theme';
 import Carousel from 'react-native-reanimated-carousel';
 import {ForYouIconsListContainer} from '../components/organisms';
@@ -80,7 +80,6 @@ const ForYou = () => {
           cache: 'force-cache',
         }}
         style={styles.backgroundImage}>
-        <Box flex={1}>
           <Box flexDirection="row" flex={4}>
             <Box style={styles.detailsContainer}>
               <Box justifyContent="space-around" flex={3}>
@@ -100,7 +99,6 @@ const ForYou = () => {
             </Box>
           </Box>
           <PlaylistBar playlist={item.foryou.playlist} />
-        </Box>
       </ImageBackground>
     );
   };
@@ -137,10 +135,10 @@ const styles = StyleSheet.create({
   },
   backgroundImage: {
     flex: 1,
-    paddingBottom: 90,
+    paddingBottom: Platform.OS === "android" ? 110 : 90,
   },
   detailsContainer: {
-    marginTop: 100,
+    marginTop: 90,
     padding: 24,
     flex: 3,
   },

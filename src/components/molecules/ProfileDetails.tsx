@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box, Text} from '../../theme/Theme';
-import User from '../../data/api/types/User';
+import User from '../../api/types/User';
 
 type ProfileDetailsProps = {
   user: User;
