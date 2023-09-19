@@ -57,12 +57,12 @@ const theme = {
     },
     title1: {
       fontSize: 28,
-      color: 'secondary',
+      color: 'text',
     },
     title2: {
       fontSize: 24,
       lineHeight: 30,
-      color: 'secondary',
+      color: 'text',
     },
     title3: {
       fontSize: 20,
@@ -81,7 +81,7 @@ const theme = {
     header: {
       fontSize: 12,
       lineHeight: 24,
-      color: 'secondary',
+      color: 'text',
     },
   },
   breakpoints: {
