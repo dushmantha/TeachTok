@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import axios from 'axios'; // Import Axios
 import MCQSection from '../types/MCQSection';
-import { answerUrl } from '../../utils/Constant';
+import { answerUrl } from '../../utils/constant';
 
 const useFetchForyouSection = (url: string, pageNumber: number) => {
   const [isLoadingFetchForyouSection, setIsLoadingFetchForyouSection] =

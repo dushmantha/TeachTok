@@ -3,7 +3,7 @@ import {Box} from '../theme/Theme';
 import {StyleSheet} from 'react-native';
 
 import useFetchFollowingSection from '../api/hooks/useFetchFollowingSection';
-import {followingUrl} from '../utils/Constant';
+import {followingUrl} from '../utils/constant';
 import {EmptyView, ErrorView, Loader} from '../components/atoms';
 import FollowingSection from '../api/types/FollowingSection';
 import {

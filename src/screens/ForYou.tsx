@@ -10,7 +10,7 @@ import {
   ButtonTitle,
 } from '../components/molecules';
 import useFetchForyouSection from '../api/hooks/useFetchForyouSection';
-import {forYouUtl} from '../utils/Constant';
+import {forYouUtl} from '../utils/constant';
 import {EmptyView, ErrorView, Loader} from '../components/atoms/';
 import MCQSection from '../api/types/MCQSection';
 
